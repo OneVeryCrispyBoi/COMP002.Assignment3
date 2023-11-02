@@ -15,7 +15,7 @@ for (let i = 1; i < limit; i++) {
         console.log("#");
     }
 
-    else if (i == 2); {
+    if (i == 2); {
         console.log("##")
     }
 
@@ -25,7 +25,12 @@ for (let i = 1; i < limit; i++) {
 
     if (i == 4); {
         console.log("####");
-        limit; i--;
     }
 
+}
+
+for (let i = limit-1; i >= 1; i--) {
+    if (i == 3); {
+        console.log("###")
+    }
 }
