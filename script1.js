@@ -7,3 +7,25 @@
 // ###
 // ##
 // #
+
+let limit = 4;
+
+for (let i = 1; i < limit; i++) {
+    if (i == 1) {
+        console.log("#");
+    }
+
+    else if (i == 2); {
+        console.log("##")
+    }
+
+    if (i == 3); {
+        console.log("###")
+    }
+
+    if (i == 4); {
+        console.log("####");
+        limit; i--;
+    }
+
+}
