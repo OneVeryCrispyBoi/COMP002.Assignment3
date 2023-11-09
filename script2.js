@@ -9,3 +9,8 @@
 // 14
 // FizzBuzz
 // ...
+
+let loopingVariable = 0;
+while (loopingVariable <= 100){
+    console.log(loopingVariable);
+}
